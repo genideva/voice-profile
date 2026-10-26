@@ -1,11 +1,11 @@
 ---
 name: check
-description: Check whether a draft sounds like the user, using the voice profile built with /voice-profile:build. Use when the user asks "does this sound like me", wants a draft scored against their voice, wants an AI draft rewritten into their voice, or wants to write something new in their voice. Requires profile.json and shaping-<register>.md from a previous build.
+description: Check whether a draft sounds like the user, using the voice profile built with the voice-profile build skill. Use when the user asks "does this sound like me", wants a draft scored against their voice, wants an AI draft rewritten into their voice, or wants to write something new in their voice. Requires profile.json and shaping-<register>.md from a previous build.
 ---
 
 # Check a draft against a voice profile
 
-The scripts are in the sibling `build` skill: `<this skill's directory>/../build/scripts/`. The user's profile is in the folder they built it in (default `~/voice-profile/`). If there is no `profile.json`, tell the user to run `/voice-profile:build` first and stop.
+The scripts are in the sibling `build` skill: `<this skill's directory>/../build/scripts/`. The user's profile is in the folder they built it in (default `~/voice-profile/`). If there is no `profile.json`, tell the user to build a profile first with the voice-profile build skill (in Claude Code, `/voice-profile:build`) and stop.
 
 ## Pick the register first
 

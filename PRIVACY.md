@@ -1,6 +1,6 @@
 # Privacy policy
 
-**Effective:** 26 October 2026 · **Applies to:** the voice-profile plugin, its scripts, and the ChatGPT GPT built from this repo.
+**Effective:** 26 October 2026 · **Applies to:** the voice-profile plugin, its scripts and skills, in Claude Code, ChatGPT and Codex.
 
 ## The short version
 
@@ -27,7 +27,7 @@ Nothing is retained anywhere else by the plugin. Delete the folder and the data 
 
 - **The scripts send nothing.** They use only the Python standard library and make no network calls.
 - **The personality-scoring step happens inside your AI session.** In Claude Code, Claude reads your writing to score it, so that text is handled under your agreement with Anthropic. Nothing goes to any other service.
-- **The ChatGPT version** runs in ChatGPT, so the files you upload there are handled by OpenAI under your agreement with them, including whether chats are used for training.
+- **In ChatGPT**, the plugin runs in ChatGPT, so the files you give it there are handled by OpenAI under your agreement with them, including whether chats are used for training.
 
 ## Your choices
 

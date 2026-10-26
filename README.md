@@ -21,7 +21,7 @@ Most "write like me" prompts are a few adjectives and a hope. This replaces the 
 - [What you get](#what-you-get)
 - [How it works](#how-it-works)
 - [Using your profile day to day](#using-your-profile-day-to-day)
-- [Using it in ChatGPT](#using-it-in-chatgpt)
+- [Using it in ChatGPT and Codex](#using-it-in-chatgpt-and-codex)
 - [Running the scripts without Claude Code](#running-the-scripts-without-claude-code)
 - [Privacy](#privacy)
 - [Limits](#limits)
@@ -137,11 +137,21 @@ The build has seven steps. Claude runs them with you and explains each result.
 
 ---
 
-## Using it in ChatGPT
+## Using it in ChatGPT and Codex
 
-The same method runs as a Custom GPT. ChatGPT's Code Interpreter executes the same scripts, so the numbers match the Claude Code version. The setup guide is in [`chatgpt/SETUP.md`](chatgpt/SETUP.md), and the GPT's instructions are in [`chatgpt/instructions.md`](chatgpt/instructions.md).
+The same skills work in OpenAI's plugin system, which replaced Custom GPTs in October 2026. The repo carries both manifests: `.claude-plugin/plugin.json` for Claude Code and a root `plugin.json` for ChatGPT and Codex.
 
-Two differences: ChatGPT clears its files between chats, so you download your profile at the end and re-upload it to check drafts. And your writing is processed by OpenAI rather than on your own machine.
+**Codex (CLI or desktop):**
+
+```
+codex plugin marketplace add genideva/voice-profile
+```
+
+Then install **Voice Profile** from the plugin list.
+
+**ChatGPT desktop app:** after the marketplace is added, restart the app, open the Plugins Directory, pick the Voice Profile marketplace, and install it. Use it in Work mode.
+
+The skills run the same Python scripts, so a profile built in ChatGPT or Codex matches one built in Claude Code. Where the scripts run depends on the app: on your own machine in Codex, and in ChatGPT's environment in the ChatGPT app. In ChatGPT, your files are processed by OpenAI.
 
 ---
 
@@ -216,7 +226,7 @@ Mark it `unsure`, and it's left out by default. Light edits change exactly the f
 Yes. You'll get a provisional profile with wide ranges, which still catches the biggest drift. Add documents as you find them.
 
 **Does it work with ChatGPT or other models?**
-Yes. The shaping prompt is plain text and works in any model. The whole build-and-check flow also runs as a ChatGPT GPT; see [Using it in ChatGPT](#using-it-in-chatgpt). The scripts run anywhere Python does.
+Yes. The shaping prompt is plain text and works in any model. The whole build-and-check flow also runs as a ChatGPT and Codex plugin; see [Using it in ChatGPT and Codex](#using-it-in-chatgpt-and-codex). The scripts run anywhere Python does.
 
 **Why the Big Five and not a style guide?**
 A style guide describes surface habits. Trait scores set stance: how hard you push, how much you soften. Stance is what makes AI writing sound generically polite, and it's what most style guides never touch.

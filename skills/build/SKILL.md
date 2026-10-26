@@ -11,7 +11,7 @@ Scripts live in `scripts/` next to this file (standard-library Python 3, nothing
 
 Work in a folder the user chooses (default `~/voice-profile/`). Everything you write goes there: `corpus/`, `corpus.csv`, `metrics.json`, `profile.json`, `profile.md`, `shaping-<register>.md`.
 
-Tell the user up front, in one or two sentences: the metrics run locally, but the Big Five scoring in step 5 means you (the model) read their writing in this session. If that's not acceptable for some documents, leave those out.
+Tell the user up front, in one or two sentences: the metrics are computed by the scripts in whatever environment runs them (their own machine in Claude Code or Codex), but the Big Five scoring in step 5 means you (the model) read their writing in this session. If that's not acceptable for some documents, leave those out.
 
 ## Step 1: Collect the corpus, and throw most of it out
 
@@ -91,7 +91,7 @@ Show the user the final draft and the verifier output, and ask them whether it s
 
 ## Finish
 
-Tell the user what they now have and how to use it: paste `shaping-<register>.md` into a system prompt or project instructions, pick the register before drafting, and run `/voice-profile:check` on anything that carries their name. Suggest the highest-value next addition: usually more pre-AI documents in whichever register is marked provisional.
+Tell the user what they now have and how to use it: paste `shaping-<register>.md` into a system prompt or project instructions, pick the register before drafting, and use the voice-profile check skill (in Claude Code, `/voice-profile:check`) on anything that carries their name. Suggest the highest-value next addition: usually more pre-AI documents in whichever register is marked provisional.
 
 ## Rules
 

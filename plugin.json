@@ -1,0 +1,42 @@
+{
+  "name": "voice-profile",
+  "version": "0.1.0",
+  "description": "Measure your writing voice from your own pre-AI writing and calls, score your Big Five with quoted evidence, and get a prompt plus a pass/fail verifier that holds AI to your voice.",
+  "author": {
+    "name": "voice-profile contributors"
+  },
+  "homepage": "https://github.com/genideva/voice-profile",
+  "repository": "https://github.com/genideva/voice-profile",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "voice",
+    "style",
+    "personality",
+    "big-five",
+    "prompting"
+  ],
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Voice Profile",
+        "shortDescription": "Measure and keep your voice",
+        "longDescription": "Voice Profile measures how you write from your own pre-AI writing (and, optionally, your call transcripts). It scores ten features of your prose, finds your writing modes, scores your Big Five traits with quotes from your own words, and builds a prompt that makes AI write the way you do. A verifier then scores any draft against your profile and returns pass or fail per feature, so 'does this sound like me' stops being a vibe. Scripts are standard-library Python and make no network calls.",
+        "developerName": "voice-profile contributors",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/genideva/voice-profile",
+        "privacyPolicyURL": "https://github.com/genideva/voice-profile/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/genideva/voice-profile/blob/main/TERMS.md",
+        "defaultPrompt": [
+          "Build my voice profile from my old writing",
+          "Check whether this draft sounds like me",
+          "Rewrite this AI draft in my voice"
+        ],
+        "brandColor": "#1D4E89",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}
