@@ -233,4 +233,4 @@ The trait definitions follow the public-domain [International Personality Item P
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE). Terms of use: [TERMS.md](TERMS.md). Questions and bugs: [GitHub Issues](https://github.com/genideva/voice-profile/issues).
