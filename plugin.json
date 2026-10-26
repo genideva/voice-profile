@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Measure your writing voice from your own pre-AI writing and calls, score your Big Five with quoted evidence, and get a prompt plus a pass/fail verifier that holds AI to your voice.",
   "author": {
-    "name": "voice-profile contributors"
+    "name": "Citrusworks"
   },
   "homepage": "https://github.com/genideva/voice-profile",
   "repository": "https://github.com/genideva/voice-profile",
@@ -22,8 +22,8 @@
       "interface": {
         "displayName": "Voice Profile",
         "shortDescription": "Measure and keep your voice",
-        "longDescription": "Voice Profile measures how you write from your own pre-AI writing (and, optionally, your call transcripts). It scores ten features of your prose, finds your writing modes, scores your Big Five traits with quotes from your own words, and builds a prompt that makes AI write the way you do. A verifier then scores any draft against your profile and returns pass or fail per feature, so 'does this sound like me' stops being a vibe. In ChatGPT, a stateless measurement service runs the numbers and stores nothing. You can also compare your style with 16 public-domain authors, feature by feature.",
-        "developerName": "voice-profile contributors",
+        "longDescription": "Voice Profile measures how you write from your own pre-AI writing. It scores ten features of your prose, finds your writing modes, scores your Big Five traits with quotes from your own words, and builds a prompt that makes AI write the way you do. A verifier then scores any draft against your profile and returns pass or fail per feature, so 'does this sound like me' stops being a vibe. In ChatGPT, a stateless measurement service runs the numbers and stores nothing. You can also compare your style with 37 public-domain authors, feature by feature.",
+        "developerName": "Citrusworks",
         "category": "Productivity",
         "websiteURL": "https://github.com/genideva/voice-profile",
         "privacyPolicyURL": "https://github.com/genideva/voice-profile/blob/main/PRIVACY.md",
@@ -36,8 +36,24 @@
         "brandColor": "#1D4E89",
         "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png",
-        "supportURL": "https://github.com/genideva/voice-profile/issues"
+        "supportURL": "https://github.com/genideva/voice-profile/issues",
+        "capabilities": []
+      },
+      "review": {
+        "prompts": [
+          "Build my voice profile from my old writing",
+          "Check whether this draft sounds like me",
+          "Rewrite this AI draft in my voice",
+          "Which classic author does my writing style sit closest to?"
+        ],
+        "commerce": false,
+        "commerce_description": "Free to use. No payments or purchases."
+      },
+      "publication": {
+        "release_notes": "Adds hosted measurement tools (analyze_writing, build_voice_profile, check_draft, compare_to_authors) so ChatGPT computes exact numbers, plus comparison with 37 public-domain authors.",
+        "countries": []
       }
     }
-  }
+  },
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
 }
