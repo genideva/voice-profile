@@ -10,6 +10,8 @@ voice-profile is a Claude Code plugin that measures how you write and turns the 
 
 Most "write like me" prompts are a few adjectives and a hope. This replaces the hope with numbers you can check.
 
+**[Privacy policy](PRIVACY.md)**: no server, no analytics, and the scripts make no network calls.
+
 ---
 
 ## Contents
@@ -191,6 +193,8 @@ The scripts skip headings, tables, code, links, block quotes and a trailing sour
 - **The personality step is different.** Claude reads your writing in your own session to score it. Leave out anything you wouldn't paste into Claude.
 - **Transcripts:** other people's words are dropped entirely, and their names, emails and phone numbers are replaced inside your turns. Automatic redaction misses things (nicknames, company names, identifying details), so read the output before using it.
 - **Keep your files out of this repo.** Your corpus and profile live in your own folder. The `.gitignore` blocks the usual filenames as a backstop.
+
+Full policy: [PRIVACY.md](PRIVACY.md).
 
 ---
 

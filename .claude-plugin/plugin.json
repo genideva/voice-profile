@@ -15,5 +15,6 @@
     "prompting"
   ],
   "homepage": "https://github.com/genideva/voice-profile",
-  "repository": "https://github.com/genideva/voice-profile"
+  "repository": "https://github.com/genideva/voice-profile",
+  "privacyPolicyUrl": "https://github.com/genideva/voice-profile/blob/main/PRIVACY.md"
 }
