@@ -1,0 +1,19 @@
+{
+  "name": "voice-profile",
+  "version": "0.1.0",
+  "description": "Measure your writing voice from your own pre-AI writing and calls, score your Big Five with quoted evidence, and get a system prompt plus a pass/fail verifier that holds AI to your voice.",
+  "author": {
+    "name": "voice-profile contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "voice",
+    "style",
+    "personality",
+    "big-five",
+    "prompting"
+  ],
+  "homepage": "https://github.com/genideva/voice-profile",
+  "repository": "https://github.com/genideva/voice-profile"
+}

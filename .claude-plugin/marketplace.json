@@ -1,0 +1,15 @@
+{
+  "name": "voice-profile",
+  "description": "Build a measured voice profile from your own pre-AI writing and hold AI drafts to it.",
+  "owner": {
+    "name": "voice-profile contributors"
+  },
+  "plugins": [
+    {
+      "name": "voice-profile",
+      "source": "./",
+      "description": "Teach AI your voice with a personality test: measured from your own pre-AI writing, verified on every draft.",
+      "version": "0.1.0"
+    }
+  ]
+}

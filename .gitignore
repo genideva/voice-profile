@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+# never commit your own corpus or profile into this repo
+corpus/
+profile.json
+metrics.json
