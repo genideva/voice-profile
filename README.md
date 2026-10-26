@@ -19,6 +19,7 @@ Most "write like me" prompts are a few adjectives and a hope. This replaces the 
 - [What you get](#what-you-get)
 - [How it works](#how-it-works)
 - [Using your profile day to day](#using-your-profile-day-to-day)
+- [Using it in ChatGPT](#using-it-in-chatgpt)
 - [Running the scripts without Claude Code](#running-the-scripts-without-claude-code)
 - [Privacy](#privacy)
 - [Limits](#limits)
@@ -134,6 +135,14 @@ The build has seven steps. Claude runs them with you and explains each result.
 
 ---
 
+## Using it in ChatGPT
+
+The same method runs as a Custom GPT. ChatGPT's Code Interpreter executes the same scripts, so the numbers match the Claude Code version. The setup guide is in [`chatgpt/SETUP.md`](chatgpt/SETUP.md), and the GPT's instructions are in [`chatgpt/instructions.md`](chatgpt/instructions.md).
+
+Two differences: ChatGPT clears its files between chats, so you download your profile at the end and re-upload it to check drafts. And your writing is processed by OpenAI rather than on your own machine.
+
+---
+
 ## Running the scripts without Claude Code
 
 The scripts in `skills/build/scripts/` use only the Python standard library and work on their own:
@@ -203,7 +212,7 @@ Mark it `unsure`, and it's left out by default. Light edits change exactly the f
 Yes. You'll get a provisional profile with wide ranges, which still catches the biggest drift. Add documents as you find them.
 
 **Does it work with ChatGPT or other models?**
-The shaping prompt is plain text and works in any model. The build and check steps run in Claude Code, and the scripts run anywhere Python does.
+Yes. The shaping prompt is plain text and works in any model. The whole build-and-check flow also runs as a ChatGPT GPT; see [Using it in ChatGPT](#using-it-in-chatgpt). The scripts run anywhere Python does.
 
 **Why the Big Five and not a style guide?**
 A style guide describes surface habits. Trait scores set stance: how hard you push, how much you soften. Stance is what makes AI writing sound generically polite, and it's what most style guides never touch.
