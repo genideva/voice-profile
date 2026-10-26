@@ -16,12 +16,11 @@ From this repo you need:
 | `extract_turns.py` | `skills/build/scripts/` |
 | `big-five-rubric.md` | `skills/build/references/` |
 | `shaping.md` | `skills/build/references/` |
-| `icon.png` | `.claude-plugin/` |
 
 ## 2. Create the GPT
 
 1. Go to [chatgpt.com/gpts/editor](https://chatgpt.com/gpts/editor) and open the **Configure** tab.
-2. **Image:** upload `icon.png`.
+2. **Profile picture (optional):** in the GPT builder's image slot, choose any square picture. The plugin's own listing icon is fine. It is only displayed; no script ever opens it.
 3. **Name:** `Voice Profile`
 4. **Description:** `Measure your writing voice from your own pre-AI writing and get a prompt, plus a pass/fail check, that holds AI to it.`
 5. **Instructions:** paste the full text of `chatgpt/instructions.md`.
