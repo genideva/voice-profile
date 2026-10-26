@@ -21,8 +21,8 @@
     "com.openai": {
       "interface": {
         "displayName": "Voice Profile",
-        "shortDescription": "Measure and keep your voice",
-        "longDescription": "Voice Profile measures how you write from your own pre-AI writing. It scores ten features of your prose, finds your writing modes, scores your Big Five traits with quotes from your own words, and builds a prompt that makes AI write the way you do. A verifier then scores any draft against your profile and returns pass or fail per feature, so 'does this sound like me' stops being a vibe. In ChatGPT, a stateless measurement service runs the numbers and stores nothing. You can also compare your style with 37 public-domain authors, feature by feature.",
+        "shortDescription": "Make AI write like you",
+        "longDescription": "Voice Profile makes AI write the way you do. It measures your own pre-AI writing on ten features, finds your writing modes, and builds a prompt that holds any AI to your voice. A checker then scores each draft against your profile, pass or fail per feature, so you know when a draft drifts. It also scores your Big Five traits with quotes from your own words, and compares your style with 37 public-domain authors. In ChatGPT, a stateless measurement service runs the numbers and stores nothing.",
         "developerName": "Citrusworks",
         "category": "Productivity",
         "websiteURL": "https://github.com/genideva/voice-profile",
