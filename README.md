@@ -151,7 +151,9 @@ Then install **Voice Profile** from the plugin list.
 
 **ChatGPT desktop app:** after the marketplace is added, restart the app, open the Plugins Directory, pick the Voice Profile marketplace, and install it. Use it in Work mode.
 
-The skills run the same Python scripts, so a profile built in ChatGPT or Codex matches one built in Claude Code. Where the scripts run depends on the app: on your own machine in Codex, and in ChatGPT's environment in the ChatGPT app. In ChatGPT, your files are processed by OpenAI.
+In ChatGPT, the measuring is done by a small hosted service ([voice-profile-mcp](https://github.com/genideva/voice-profile-mcp)) that runs the same code, so the numbers match the Claude Code version exactly. It processes your text in memory and stores nothing; you keep your profile file. Its privacy policy is [here](https://github.com/genideva/voice-profile-mcp/blob/main/PRIVACY.md). In Codex and Claude Code, the scripts run on your own machine and nothing leaves it.
+
+**New in ChatGPT: compare your style with classic authors.** Paste a paragraph, or use your profile, and see which of 16 public-domain authors (Twain, Austen, Dickens, Emerson, Thoreau, Wilde, Douglass and more) your style sits closest to, feature by feature. It compares measurable style only, not personality.
 
 ---
 

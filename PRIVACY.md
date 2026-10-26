@@ -27,7 +27,8 @@ Nothing is retained anywhere else by the plugin. Delete the folder and the data 
 
 - **The scripts send nothing.** They use only the Python standard library and make no network calls.
 - **The personality-scoring step happens inside your AI session.** In Claude Code, Claude reads your writing to score it, so that text is handled under your agreement with Anthropic. Nothing goes to any other service.
-- **In ChatGPT**, the plugin runs in ChatGPT, so the files you give it there are handled by OpenAI under your agreement with them, including whether chats are used for training.
+- **In ChatGPT**, the plugin runs in ChatGPT, so the files you give it there are handled by OpenAI under your agreement with them, including whether chats are used for training. The measurements are made by the voice-profile measurement service, which receives only the text a tool needs, processes it in memory, and stores and logs nothing. Its policy: [voice-profile-mcp/PRIVACY.md](https://github.com/genideva/voice-profile-mcp/blob/main/PRIVACY.md).
+- **In Claude Code and Codex**, the plugin never contacts that service. The scripts run on your machine.
 
 ## Your choices
 

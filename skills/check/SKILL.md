@@ -5,7 +5,7 @@ description: Check whether a draft sounds like the user, using the voice profile
 
 # Check a draft against a voice profile
 
-The scripts are in the sibling `build` skill: `<this skill's directory>/../build/scripts/`. The user's profile is in the folder they built it in (default `~/voice-profile/`). If there is no `profile.json`, tell the user to build a profile first with the voice-profile build skill (in Claude Code, `/voice-profile:build`) and stop.
+If the `check_draft` tool is available in this session (as in ChatGPT), use it with the user's saved profile instead of the script. Otherwise, the scripts are in the sibling `build` skill: `<this skill's directory>/../build/scripts/`. The user's profile is in the folder they built it in (default `~/voice-profile/`). If there is no `profile.json`, tell the user to build a profile first with the voice-profile build skill (in Claude Code, `/voice-profile:build`) and stop.
 
 ## Pick the register first
 

@@ -7,6 +7,8 @@ description: Build a measured writing-voice profile from the user's own pre-AI w
 
 You are helping the user build a profile of how they write, measured from their own pre-AI writing, and a shaping prompt that holds a model to it. The method inverts Serapio-García et al., *Nature Machine Intelligence* 7:1954-1968 (2025): instead of measuring a model's personality, score the user's writing to get a target, shape the model toward it, then verify the output landed.
 
+**Tools or scripts.** If the voice-profile tools are available in this session (`analyze_writing`, `build_voice_profile`, `check_draft`, `compare_to_authors`, as in ChatGPT), use them for every measurement and pass each sample's text, title, register and `ai_touched` answer. They run the same code as the scripts and store nothing; the user saves the returned profile. Otherwise use the scripts below. Never estimate a number by eye.
+
 Scripts live in `scripts/` next to this file (standard-library Python 3, nothing to install). Run them with `python3 <this skill's directory>/scripts/<name>.py`. References live in `references/`; read each one at the step that names it.
 
 Work in a folder the user chooses (default `~/voice-profile/`). Everything you write goes there: `corpus/`, `corpus.csv`, `metrics.json`, `profile.json`, `profile.md`, `shaping-<register>.md`.
