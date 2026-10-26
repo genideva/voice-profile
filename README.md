@@ -153,7 +153,7 @@ Then install **Voice Profile** from the plugin list.
 
 In ChatGPT, the measuring is done by a small hosted service ([voice-profile-mcp](https://github.com/genideva/voice-profile-mcp)) that runs the same code, so the numbers match the Claude Code version exactly. It processes your text in memory and stores nothing; you keep your profile file. Its privacy policy is [here](https://github.com/genideva/voice-profile-mcp/blob/main/PRIVACY.md). In Codex and Claude Code, the scripts run on your own machine and nothing leaves it.
 
-**New in ChatGPT: compare your style with classic authors.** Paste a paragraph, or use your profile, and see which of 16 public-domain authors (Twain, Austen, Dickens, Emerson, Thoreau, Wilde, Douglass and more) your style sits closest to, feature by feature. It compares measurable style only, not personality.
+**New in ChatGPT: compare your style with classic authors.** Paste a paragraph, or use your profile, and see which of 37 public-domain authors (novelists like Austen, Dickens and Wilde, plus essayists, memoirists and non-fiction writers from Twain and Douglass to Helen Keller and Andrew Carnegie) your style sits closest to, feature by feature. It compares measurable style only, not personality.
 
 ---
 
