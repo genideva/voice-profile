@@ -22,7 +22,7 @@
       "interface": {
         "displayName": "Voice Profile",
         "shortDescription": "Measure and keep your voice",
-        "longDescription": "Voice Profile measures how you write from your own pre-AI writing (and, optionally, your call transcripts). It scores ten features of your prose, finds your writing modes, scores your Big Five traits with quotes from your own words, and builds a prompt that makes AI write the way you do. A verifier then scores any draft against your profile and returns pass or fail per feature, so 'does this sound like me' stops being a vibe. Scripts are standard-library Python and make no network calls.",
+        "longDescription": "Voice Profile measures how you write from your own pre-AI writing (and, optionally, your call transcripts). It scores ten features of your prose, finds your writing modes, scores your Big Five traits with quotes from your own words, and builds a prompt that makes AI write the way you do. A verifier then scores any draft against your profile and returns pass or fail per feature, so 'does this sound like me' stops being a vibe. In ChatGPT, a stateless measurement service runs the numbers and stores nothing. You can also compare your style with 16 public-domain authors, feature by feature.",
         "developerName": "voice-profile contributors",
         "category": "Productivity",
         "websiteURL": "https://github.com/genideva/voice-profile",
@@ -35,7 +35,8 @@
         ],
         "brandColor": "#1D4E89",
         "composerIcon": "./assets/icon.png",
-        "logo": "./assets/icon.png"
+        "logo": "./assets/icon.png",
+        "supportURL": "https://github.com/genideva/voice-profile/issues"
       }
     }
   }
