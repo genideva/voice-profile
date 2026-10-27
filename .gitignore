@@ -5,3 +5,6 @@ __pycache__/
 corpus/
 profile.json
 metrics.json
+
+# Local Claude Code state and worktrees; never part of the plugin
+.claude/
